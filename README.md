@@ -15,9 +15,9 @@ The data used to train this model is a collection of snake photographs. The data
 ## Models
 The data was used to train two Convolutional Neural Network's which predict whether or not a Florida snake is venomous. The first model uses an SGD optimizer and the second model model uses an Adam optimizer. Both models have three convolutional layers, use class weights for the imbalance of venomous/non-venomous snakes, and utilize early stopping as well as regularization to prevent overfitting. Both models consitently have the same Accuracy and F1-Score, but I favor the SGD model as it has the lower test loss value.
 
-    - Accuracy: 89%
+    - Accuracy: 89%.
 
-    - F1-Score: 83.3%
+    - F1-Score: 83.3%.
 
 ## Future Insights
   - I would like the model to take all snake photos, good and poor quality.
@@ -30,8 +30,8 @@ If you would like to review the model and code you may vist my Jupyter Notebook 
 If you would like a review my Presentation you may visit it [here](https://docs.google.com/presentation/d/1qlt9wflXGoZEIAHTv1Vztp9pRm-p1yX7od9RHwV2v2A/edit#slide=id.g2e09ca5adf7_1_70)
 
 ## Sources 
-    - [Snake Bites](https://pawsomeadvice.com/wild/snake-bite-statistics/#:~:text=Venomous%20Snakes%20Bite%207%2C000%E2%80%938%2C000%20People%20in%20the%20US,of%20bites%20occur%20on%20the%20legs%20or%20feet.)
-    - [Snake Identification](https://www.floridamuseum.ufl.edu/florida-snake-id/)
+    - [Snake Bites](https://pawsomeadvice.com/wild/snake-bite-statistics/#:~:text=Venomous%20Snakes%20Bite%207%2C000%E2%80%938%2C000%20People%20in%20the%20US,of%20bites%20occur%20on%20the%20legs%20or%20feet.).
+    - [Snake Identification](https://www.floridamuseum.ufl.edu/florida-snake-id/).
 
 ## Repository Structure
 ```
