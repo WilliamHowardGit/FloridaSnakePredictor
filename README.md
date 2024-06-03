@@ -13,6 +13,12 @@ Snakes are a vital part of the Florida ecosystem. The new Florida residents like
 The data used to train this model is a collection of snake photographs. The data includes multiple photos of each individual snake species in Florida, native and invasive. Species and photographs were verified using [Florida Museum](https://www.floridamuseum.ufl.edu/florida-snake-id/)
 
 ## Models
+![Scarletsnake 1](https://github.com/WilliamHowardGit/FloridaSnakePredictor/assets/47336206/a39a6ee5-e510-4359-9794-0094f098eba3) **Non-Venomous**
+
+![Harlequin Coralsnake 1](https://github.com/WilliamHowardGit/FloridaSnakePredictor/assets/47336206/d553afeb-228c-4e44-8265-b932e72049cf) **Venoumous**
+
+![Scarlet Kingsnake 1](https://github.com/WilliamHowardGit/FloridaSnakePredictor/assets/47336206/7bfea5b1-b442-499c-9aee-cc5fc115ba74) **Non-Venomous**
+
 The data was used to train two Convolutional Neural Network's which predict whether or not a Florida snake is venomous. The first model uses an SGD optimizer and the second model model uses an Adam optimizer. Both models have three convolutional layers, use class weights for the imbalance of venomous/non-venomous snakes, and utilize early stopping as well as regularization to prevent overfitting. Both models consitently have the same Accuracy and F1-Score, but I favor the SGD model as it has the lower test loss value.
 
     - Accuracy: 89%.
